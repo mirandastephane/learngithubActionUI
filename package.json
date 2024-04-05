@@ -1,0 +1,22 @@
+{
+  "name": "saucedemouitest",
+  "version": "1.0.0",
+  "description": "Testes Automatizados de Interface Gráfica / UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "test",
+    "ui",
+    "cypress",
+    "xpeducacao"
+  ],
+  "author": "Bárbara Cabral",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
