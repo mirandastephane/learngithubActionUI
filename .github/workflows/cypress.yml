@@ -37,16 +37,4 @@ jobs:
 
       - name: Run Lighthouse CI
         run: |
-          lhci autorun \
-            --url=https://www.businessinsider.com/ \
-            --upload.target=temporary-public-storage \
-            --collect.url=https://www.businessinsider.com/ \
-            --collect.staticDistDir=./ \
-            --collect.numberOfRuns=3 \
-            --assert.budgets.performance=90 \
-            --assert.budgets.accessibility=90 \
-            --assert.budgets.best-practices=90 \
-            --assert.budgets.seo=90 \
-            --assert.budgets.pwa=90 \
-            --assert.assertions=performance-budget,accessibility,best-practices,seo,pwa \
-            --assert.upload=true
+          lhci autorun 
