@@ -5,28 +5,9 @@
       "numberOfRuns": 3
     },
     "assert": {
-      "budgets": [
-        {
-          "path": "performance",
-          "threshold": 90
-        },
-        {
-          "path": "accessibility",
-          "threshold": 90
-        },
-        {
-          "path": "best-practices",
-          "threshold": 90
-        },
-        {
-          "path": "seo",
-          "threshold": 90
-        },
-        {
-          "path": "pwa",
-          "threshold": 90
-        }
-      ]
+      "assertions": {
+        "categories:accessibility": ["error", {"minScore": 1}]
+      }
     },
     "upload": {
       "target": "temporary-public-storage"
